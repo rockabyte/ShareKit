@@ -30,7 +30,7 @@
 
 #import "SHKConfiguration.h"
 #import "SHKTwitter.h"
-#import "../../../../../../../RABComponents/HockeyKit/JSON/JSONKit.h"
+#import <HockeyKit/JSON/JSONKit.h>
 #import "SHKXMLResponseParser.h"
 #import "SHKiOS5Twitter.h"
 #import "NSMutableDictionary+NSNullsToEmptyStrings.h"
