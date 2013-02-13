@@ -26,7 +26,7 @@
 
 #import "SHKConfiguration.h"
 #import "SHKReadability.h"
-#import <HockeyKit/JSON/JSONKit.h>
+#import "../../../../../../../RABComponents/HockeyKit/JSON/JSONKit.h"
 #import "NSMutableDictionary+NSNullsToEmptyStrings.h"
 
 static NSString *const kSHKReadabilityUserInfo=@"kSHKReadabilityUserInfo";
