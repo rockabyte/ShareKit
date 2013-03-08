@@ -69,6 +69,16 @@
 	return [NSNumber numberWithBool:false];
 }
 
+/*
+ Create a project on Google APIs console,
+ https://code.google.com/apis/console . Under "API Access", create a
+ client ID as "Installed application" with the type "iOS", and
+ register the bundle ID of your application.
+ */
+- (NSString*)googlePlusClientId {
+    return @"651258972991.apps.googleusercontent.com";
+}
+
 // Read It Later - http://readitlaterlist.com/api/signup/ 
 - (NSString*)readItLaterKey {
 	return @"45aT6Vfvg66eWNebybd680gu13pdba3d";
@@ -197,6 +207,19 @@
 
 - (NSString*)foursquareV2RedirectURI {
     return @"app://foursquare";
+}
+
+// Tumblr - http://www.tumblr.com/docs/en/api/v2
+- (NSString*)tumblrConsumerKey {
+	return @"vT0GPbmG5pwWOLTyrFo6uG0UJQEfX4RgrnXY7ZTzkAJyCrHNPF";
+}
+
+- (NSString*)tumblrSecret {
+	return @"XsYJPUNJDwCAw6B1PcmFjXuCLtgBp8chRrNuZhpLzn8gFBDg42";
+}
+
+- (NSString*)tumblrCallbackUrl {
+	return @"tumblr.sharekit.com";
 }
 
 /*
